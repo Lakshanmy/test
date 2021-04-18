@@ -7,7 +7,7 @@ import requests
 import wget
 from pyrogram import filters
 
-from JESongBot import Jebot
+from CyberSongDL import Jebot
 
 def get_arg(message):
     msg = message.text
