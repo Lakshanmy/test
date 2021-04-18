@@ -1,12 +1,12 @@
-# CyberHackers <https://t.me/Cyber0Hacker>
+o# CyberHackers <https://t.me/Cyber0Hacker>
 # @AmKuSaL
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
-from JESongBot.plugins import *
+from CyberSongDL.plugins import *
 from pyrogram import idle, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from JESongBot import Jebot as app
-from JESongBot import LOGGER
+from CyberSongDL.types import InlineKeyboardMarkup, InlineKeyboardButton
+from CyberSongDL import Jebot as app
+from CyberSongDL import LOGGER
 
 pm_start_text = """
 Heya [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
