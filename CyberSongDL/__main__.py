@@ -1,4 +1,4 @@
-o# CyberHackers <https://t.me/Cyber0Hacker>
+# CyberHackers <https://t.me/Cyber0Hacker>
 # @AmKuSaL
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
