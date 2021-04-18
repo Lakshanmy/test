@@ -4,7 +4,7 @@
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from CyberSongDL.plugins import *
 from pyrogram import idle, filters
-from CyberSongDL.types import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from CyberSongDL import Jebot as app
 from CyberSongDL import LOGGER
 
