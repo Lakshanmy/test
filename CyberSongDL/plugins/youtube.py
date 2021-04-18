@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from youtube_dl import YoutubeDL
 from opencc import OpenCC
-from JESongBot import Jebot
+from CyberSongDL import Jebot
 
 YTDL_REGEX = (r"^((?:https?:)?\/\/)"
               r"?((?:www|m)\.)"
