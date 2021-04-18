@@ -9,7 +9,7 @@ from CyberSongDL import Jebot as app
 from CyberSongDL import LOGGER
 
 pm_start_text = """
-Heya [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
+Heya [{}](tg://user?id={}), I'm Song Downloader Bot 🎵 of CyberHackers Made By @AmKuSaL .
 
 Do /help for know my commands
 
