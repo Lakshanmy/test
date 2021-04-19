@@ -7,7 +7,7 @@ import aiofiles
 import aiohttp
 from pyrogram import filters
 
-from CyberSongDL import Jebot as app
+from CyberSongDL import CHbot as app
 
 ARQ = "https://thearq.tech/"
 
