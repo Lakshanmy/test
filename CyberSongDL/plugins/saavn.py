@@ -7,7 +7,7 @@ import requests
 import wget
 from pyrogram import filters
 
-from CyberSongDL import Jebot
+from CyberSongDL import CHbot
 
 def get_arg(message):
     msg = message.text
@@ -26,7 +26,7 @@ async def song(client, message):
     if args.startswith(" "):
         await message.reply("<b>What is the song you want?</b>")
         return ""
-    m = await message.reply_text("Downloading... Bot By @Cyber0Hacker")
+    m = await message.reply_text("Downloading Song by @Cyber0Hacker...")
     try:
         r = requests.get(
             f"https://jevcplayerbot-saavndl.herokuapp.com/result/?query={args}"
