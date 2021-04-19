@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from youtube_dl import YoutubeDL
 from opencc import OpenCC
-from CyberSongDL import Jebot
+from CyberSongDL import CHbot
 
 YTDL_REGEX = (r"^((?:https?:)?\/\/)"
               r"?((?:www|m)\.)"
@@ -33,7 +33,7 @@ async def ytdl_with_button(_, message: Message):
         quote=True
     )
 
-@Jebot.on_callback_query(filters.regex("^ytdl_audio$"))
+@CHbot.on_callback_query(filters.regex("^ytdl_audio$"))
 async def callback_query_ytdl_audio(_, callback_query):
     try:
         url = callback_query.message.reply_to_message.text
