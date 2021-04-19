@@ -47,9 +47,9 @@ async def deezer(_, message):
     except Exception as e:
         await m.edit(str(e))
         return
-    await m.edit("Downloading... Bot By @Cyber0Hacker")
+    await m.edit("Downloading Song by @Cyber0Hacker...")
     song = await download_song(url)
-    await m.edit("Uploading...")
+    await m.edit("Uploading from My Server...")
     await message.reply_audio(audio=song, title=title, performer=artist)
     os.remove(song)
     await m.delete()
