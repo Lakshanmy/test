@@ -1,4 +1,4 @@
-# JE Song Bot
+# Cyber Song Bot
 ## A telegram bot that can download songs
 <p align="center">
   <img src="https://telegra.ph/file/a0b65dfb82bf5ef84832f.jpg">
